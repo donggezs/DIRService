@@ -3,23 +3,28 @@
 运行步骤：
 DIRService、InfoServer两个服务的ip和端口号在Handle/PubConst 文件中设置
 
-1、开启DIRService
-  go build Server/ServerHttp.go
-  运行：ServerHttp.exe D:\Soft\GoLand
-  浏览器打开：http://127.0.0.1:8091/?path=doc
-2、开启InfoServer
-  go build InfoServer/InfoServerHttp.go
-  运行：InfoServerHttp.exe
-  浏览器打开：http://127.0.0.1:8092/?path=doc
+1、开启DIRService：
 
+  	go build Server/ServerHttp.go
+	
+  	运行：ServerHttp.exe D:\Soft\GoLand
+	
+  	浏览器打开：http://127.0.0.1:8091/?path=doc
+	
+2、开启InfoServer：
 
-
+  	go build InfoServer/InfoServerHttp.go
+	
+  	运行：InfoServerHttp.exe
+	
+  	浏览器打开：http://127.0.0.1:8092/?path=doc
 
 
 
 
 
 需求如下：
+
 1. 使用 Golang 编写一个 HTTP Web Service（DIRService）并完成调试：
 
 服务描述
